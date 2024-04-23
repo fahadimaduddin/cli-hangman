@@ -1,0 +1,30 @@
+{
+  "name": "@fahadimaduddin/cli-hangman",
+  "version": "1.0.0",
+  "description": "A simple CLI-based Hangman game implemented using TypeScript and Node.js with the Inquirer and chalk library.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahadimaduddin/cli-hangman.git"
+  },
+  "author": "Bahauddin Fahad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fahadimaduddin/cli-hangman/issues"
+  },
+  "homepage": "https://github.com/fahadimaduddin/cli-hangman#readme",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.19"
+  }
+}
